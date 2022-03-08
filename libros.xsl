@@ -7,15 +7,14 @@
 	</xsl:template>
    	<h2>
    		OBRA:
-  	<xsl:template match="obra">
+  	<xsl:template match="obra"></xsl:template>
     </h2>
-    	<p>
-    		Año:
-    		<xsl:value-of select="año"/>
-    		Precio:
-    		<span>
-	    		<xsl:value-of select="precio"/>
-    		</span>
-    	</p>
-    </>     
+    <p>
+    	Año:
+    	<xsl:value-of select="año"/>
+    	Precio:
+    	<span>
+	  		<xsl:value-of select="precio"/>
+    	</span>
+    </p>
 </xsl:stylesheet>
