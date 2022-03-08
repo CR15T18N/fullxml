@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="Libros.xsl"?>
-<?xml-stylesheet href="Libros.css"?>
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/xampp/htdocs/profesorcarlos.es/2021/todoXML/biblioteca.xsd">
+<?xml-stylesheet type="text/xsl" href="libros.xsl"?>
+<?xml-stylesheet href="libros.css"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/GitHub/fullxml/libros.xsd">
   <libro>
-    <titulo>La vida está en otra parte</titulo>
-    <autor>Milan Kundera</autor>
-    <fechaPublicacion/>
+    <obra>Everyday Italian</obra>
+    <año>2005</año>
+    <precio>29.99 euros</precio>
   </libro>
   <libro>
-    <titulo>Pantaleón y las visitadoras</titulo>
-    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
-    <fechaPublicacion año="1973"/>
+    <obra>Harry Potter</obra>
+    <año>2005</año>
+    <precio>29.99 euros</precio>
   </libro>
   <libro>
-    <titulo>Conversación en la catedral</titulo>
-    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
-    <fechaPublicacion año="1969"/>
+    <obra>XQuery Kick Start</obra>
+    <año>2003</año>
+    <precio>49.99 euros</precio>
   </libro>
-</biblioteca>
+  <libro>
+    <obra>Learning XML(en)</obra>
+    <año>2003</año>
+    <precio>39.95 euros</precio>
+  </libro>
+</libros>

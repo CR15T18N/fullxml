@@ -5,16 +5,17 @@
       		<xsl:apply-templates />
     	</body></html>
 	</xsl:template>
-   
+   	<h2>
+   		OBRA:
   	<xsl:template match="obra">
-  		OBRA:
+    </h2>
     	<p>
     		Año:
-    	<xsl:value-of select="año"/>
-    	</p>
-    	<h2>
+    		<xsl:value-of select="año"/>
     		Precio:
-    	<xsl:value-of select="precio"/>
-    	</h2>     
-	</xsl:template>
+    		<span>
+	    		<xsl:value-of select="precio"/>
+    		</span>
+    	</p>
+    </>     
 </xsl:stylesheet>

@@ -1,4 +1,8 @@
 p{
     color:blue !important;
+}
+
+span{
+    color:black !important;
     background-color:yellow;
-    }
+}
