@@ -2,10 +2,12 @@
     display: block;
 }
 p{
+    display: table;
     color:blue !important;
 }
 
 span{
+    display: inline;
     color:black !important;
     background-color:yellow;
 }

@@ -5,16 +5,21 @@
       		<xsl:apply-templates />
     	</body></html>
 	</xsl:template>
-   	<h2>
+  	<xsl:template match="libro">
+	<h2>
    		OBRA:
-  	<xsl:template match="obra"></xsl:template>
-    </h2>
+   		<xsl:value-of select="obra"/>
+	</h2>
     <p>
     	Año:
     	<xsl:value-of select="año"/>
+	</p>
+	<p>
     	Precio:
     	<span>
 	  		<xsl:value-of select="precio"/>
     	</span>
-    </p>
+    	euros
+    </p>  
+	</xsl:template>
 </xsl:stylesheet>

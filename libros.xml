@@ -4,21 +4,21 @@
   <libro>
     <obra>Everyday Italian</obra>
     <año>2005</año>
-    <precio>29.99 euros</precio>
+    <precio>29.99</precio>
   </libro>
   <libro>
     <obra>Harry Potter</obra>
     <año>2005</año>
-    <precio>29.99 euros</precio>
+    <precio>29.99</precio>
   </libro>
   <libro>
     <obra>XQuery Kick Start</obra>
     <año>2003</año>
-    <precio>49.99 euros</precio>
+    <precio>49.99</precio>
   </libro>
   <libro>
     <obra>Learning XML(en)</obra>
     <año>2003</año>
-    <precio>39.95 euros</precio>
+    <precio>39.95</precio>
   </libro>
 </libros>
